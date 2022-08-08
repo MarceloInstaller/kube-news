@@ -35,7 +35,8 @@ jobs:
           push: true
           tags: |
             marceloinstaller/kube-news:latest
-            marceloinstaller/kube-news:${{github.run_number}}            
+            marceloinstaller/kube-news:${{github.run_number}}
+            
             
             
          
