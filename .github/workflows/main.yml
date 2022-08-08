@@ -34,8 +34,8 @@ jobs:
           context: ./src
           push: true
           tags: |
-            MarceloInstaller/kube-news:latest
-            MarceloInstaller/kube-news:${{github.run_number}}            
+            marceloinstaller/kube-news:latest
+            marceloinstaller/kube-news:${{github.run_number}}            
             
             
          
