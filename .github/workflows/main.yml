@@ -35,7 +35,7 @@ jobs:
           push: true
           tags: |
             fabricioveronez/kube-news:latest
-            fabricioveronez/kube-news:${{github.run_number}}
+            fabricioveronez/kube-news:${{github.run_number}}            
             
             
          
