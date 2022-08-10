@@ -31,7 +31,7 @@ jobs:
         uses: docker/build-push-action@v3.0.0
         with:         
           file: ./Dockerfile
-          context: ./src
+          context: ./
           push: true
           tags: |
             marceloinstaller/kube-news:latest
